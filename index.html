@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>RMT OnePride SAMP</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Segala hal yang terjadi pada akun anda bukan tanggung jawab kami!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="cart-icon">
+        🛒 
+    </div>
+    <main>
+        <section class="search-bar">
+            <input type="text" id="searchInput" placeholder="Cari produk...">
+            <button id="searchButton">Cari</button>
+        </section>
+
+        <section class="categories">
+            <h2>Kategori</h2>
+            <div class="category-list">
+                <div class="category" data-category="uang">Uang IC</div>
+                <div class="category" data-category="asset">Asset</div>
+                <div class="category" data-category="akun">Akun</div>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Produk Terlaris Bulan Ini</h2>
+            <div id="productList" class="product-list"></div>
+        </section>
+    </main>
+
+
+</body>
+</html>
+
+<script src="index.js"></script>
